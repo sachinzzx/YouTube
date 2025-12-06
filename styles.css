@@ -144,14 +144,12 @@ body {
   background: var(--card);
 }
 
-/* ---------- Hero ---------- */
-
 .hero {
   padding: 20px 0;
 }
 
 .hero .wrap {
-  display: grid;
+  display:grid;
   gap: 18px;
   grid-template-columns: 2.2fr 1fr;
 }
@@ -214,8 +212,6 @@ h1 {
   border-color: rgba(124,92,255,0.35);
   box-shadow: var(--shadow);
 }
-
-/* ---------- Sections & cards ---------- */
 
 .section {
   padding: 28px 0;
@@ -310,9 +306,6 @@ h1 {
   font-size: 12px;
   color: #e9e3ff;
 }
-
-/* ---------- Background video / hero overlay ---------- */
-
 .bg-video {
   position: fixed;
   inset: 0;
@@ -360,20 +353,6 @@ h1 {
   border-color: #3b82f6;
   box-shadow: 0 6px 20px rgba(59,130,246,0.12);
 }
-
-.search-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: #111827;
-  color: #fff;
-  border: none;
-  padding: 10px 12px;
-  border-radius: 20px;
-  cursor: pointer;
-  height: 40px;
-}
-
 .search-btn svg {
   color: #fff;
 }
